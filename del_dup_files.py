@@ -55,7 +55,7 @@ if __name__ == '__main__':
     log = logger()
     sizedict = dict()
     md5dict = dict()
-    base = "F:\\yellow\\"
+    base = input("Root Directory:")
     # urlList = get_urllist(base)
     count = 0
     total = 0
